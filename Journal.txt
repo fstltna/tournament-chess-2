@@ -1,0 +1,459 @@
+Journal open, Date: Saturday 2023/05/20 21:59:44
+22:00:18.08 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:18.08 [E]: > D DC=00140219
+22:00:18.08 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:18.08 [E]: > S DC=00020355
+22:00:18.08 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:18.08 [E]: Ctrl=IDC_BAR
+22:00:18.08 [E]: Dlg=IDD_LOADING
+22:00:18.09 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:18.09 [E]: > D DC=00030354
+22:00:18.09 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:18.09 [E]: > S DC=00150219
+22:00:18.09 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.00 [E]: Ctrl=IDC_BAR
+22:00:19.00 [E]: Dlg=IDD_LOADING
+22:00:19.01 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.01 [E]: > D DC=00040355
+22:00:19.01 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.01 [E]: > S DC=00040354
+22:00:19.01 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.01 [E]: Ctrl=IDC_BAR
+22:00:19.01 [E]: Dlg=IDD_LOADING
+22:00:19.02 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.02 [E]: > D DC=00170219
+22:00:19.02 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.02 [E]: > S DC=00050355
+22:00:19.02 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.02 [E]: Ctrl=IDC_BAR
+22:00:19.02 [E]: Dlg=IDD_LOADING
+22:00:19.03 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.03 [E]: > D DC=00060354
+22:00:19.03 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.03 [E]: > S DC=00180219
+22:00:19.03 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.03 [E]: Ctrl=IDC_BAR
+22:00:19.03 [E]: Dlg=IDD_LOADING
+22:00:19.03 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.03 [E]: > D DC=00070355
+22:00:19.03 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.03 [E]: > S DC=00070354
+22:00:19.03 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.03 [E]: Ctrl=IDC_BAR
+22:00:19.03 [E]: Dlg=IDD_LOADING
+22:00:19.04 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.04 [E]: > D DC=001A0219
+22:00:19.04 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.04 [E]: > S DC=00080355
+22:00:19.04 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.04 [E]: Ctrl=IDC_BAR
+22:00:19.04 [E]: Dlg=IDD_LOADING
+22:00:19.06 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.06 [E]: > D DC=00090354
+22:00:19.06 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.06 [E]: > S DC=001B0219
+22:00:19.06 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.06 [E]: Ctrl=IDC_BAR
+22:00:19.06 [E]: Dlg=IDD_LOADING
+22:00:19.07 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.07 [E]: > D DC=000A0355
+22:00:19.07 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.07 [E]: > S DC=000A0354
+22:00:19.07 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.07 [E]: Ctrl=IDC_BAR
+22:00:19.07 [E]: Dlg=IDD_LOADING
+22:00:19.07 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.07 [E]: > D DC=001D0219
+22:00:19.07 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.07 [E]: > S DC=000B0355
+22:00:19.07 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.07 [E]: Ctrl=IDC_BAR
+22:00:19.07 [E]: Dlg=IDD_LOADING
+22:00:19.08 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.08 [E]: > D DC=000C0354
+22:00:19.08 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.08 [E]: > S DC=001E0219
+22:00:19.08 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.08 [E]: Ctrl=IDC_BAR
+22:00:19.08 [E]: Dlg=IDD_LOADING
+22:00:19.09 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:19.09 [E]: > D DC=000D0355
+22:00:19.09 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:19.09 [E]: > S DC=000D0354
+22:00:19.09 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:19.09 [E]: Ctrl=IDC_BAR
+22:00:19.09 [E]: Dlg=IDD_LOADING
+22:00:20.00 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.00 [E]: > D DC=00200219
+22:00:20.00 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.00 [E]: > S DC=000E0355
+22:00:20.00 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.00 [E]: Ctrl=IDC_BAR
+22:00:20.00 [E]: Dlg=IDD_LOADING
+22:00:20.01 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.01 [E]: > D DC=000F0354
+22:00:20.01 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.01 [E]: > S DC=00210219
+22:00:20.01 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.01 [E]: Ctrl=IDC_BAR
+22:00:20.01 [E]: Dlg=IDD_LOADING
+22:00:20.02 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.02 [E]: > D DC=00100355
+22:00:20.02 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.02 [E]: > S DC=00100354
+22:00:20.02 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.02 [E]: Ctrl=IDC_BAR
+22:00:20.02 [E]: Dlg=IDD_LOADING
+22:00:20.02 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.02 [E]: > D DC=00230219
+22:00:20.02 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.02 [E]: > S DC=00110355
+22:00:20.02 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.02 [E]: Ctrl=IDC_BAR
+22:00:20.02 [E]: Dlg=IDD_LOADING
+22:00:20.03 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.03 [E]: > D DC=00120354
+22:00:20.03 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.03 [E]: > S DC=00240219
+22:00:20.03 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.03 [E]: Ctrl=IDC_BAR
+22:00:20.03 [E]: Dlg=IDD_LOADING
+22:00:20.04 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.04 [E]: > D DC=00130355
+22:00:20.04 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.04 [E]: > S DC=00130354
+22:00:20.04 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.04 [E]: Ctrl=IDC_BAR
+22:00:20.04 [E]: Dlg=IDD_LOADING
+22:00:20.06 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.06 [E]: > D DC=00260219
+22:00:20.06 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.06 [E]: > S DC=00140355
+22:00:20.06 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.06 [E]: Ctrl=IDC_BAR
+22:00:20.06 [E]: Dlg=IDD_LOADING
+22:00:20.07 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.07 [E]: > D DC=00150354
+22:00:20.07 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.07 [E]: > S DC=00270219
+22:00:20.07 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.07 [E]: Ctrl=IDC_BAR
+22:00:20.07 [E]: Dlg=IDD_LOADING
+22:00:20.08 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.08 [E]: > D DC=00160355
+22:00:20.08 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.08 [E]: > S DC=00160354
+22:00:20.08 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.08 [E]: Ctrl=IDC_BAR
+22:00:20.08 [E]: Dlg=IDD_LOADING
+22:00:20.09 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.09 [E]: > D DC=00290219
+22:00:20.09 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.09 [E]: > S DC=00170355
+22:00:20.09 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.09 [E]: Ctrl=IDC_BAR
+22:00:20.09 [E]: Dlg=IDD_LOADING
+22:00:20.09 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:20.09 [E]: > D DC=00180354
+22:00:20.09 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:20.09 [E]: > S DC=002A0219
+22:00:20.09 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:20.09 [E]: Ctrl=IDC_BAR
+22:00:20.09 [E]: Dlg=IDD_LOADING
+22:00:21.00 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.00 [E]: > D DC=00190355
+22:00:21.00 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.00 [E]: > S DC=00190354
+22:00:21.00 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.00 [E]: Ctrl=IDC_BAR
+22:00:21.00 [E]: Dlg=IDD_LOADING
+22:00:21.01 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.01 [E]: > D DC=002C0219
+22:00:21.01 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.01 [E]: > S DC=001A0355
+22:00:21.01 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.01 [E]: Ctrl=IDC_BAR
+22:00:21.01 [E]: Dlg=IDD_LOADING
+22:00:21.02 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.02 [E]: > D DC=001B0354
+22:00:21.02 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.02 [E]: > S DC=002D0219
+22:00:21.02 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.02 [E]: Ctrl=IDC_BAR
+22:00:21.02 [E]: Dlg=IDD_LOADING
+22:00:21.02 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.02 [E]: > D DC=001C0355
+22:00:21.02 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.02 [E]: > S DC=001C0354
+22:00:21.02 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.02 [E]: Ctrl=IDC_BAR
+22:00:21.02 [E]: Dlg=IDD_LOADING
+22:00:21.03 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.03 [E]: > D DC=002F0219
+22:00:21.03 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.03 [E]: > S DC=001D0355
+22:00:21.03 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.03 [E]: Ctrl=IDC_BAR
+22:00:21.03 [E]: Dlg=IDD_LOADING
+22:00:21.05 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.05 [E]: > D DC=001E0354
+22:00:21.05 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.05 [E]: > S DC=00300219
+22:00:21.05 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.05 [E]: Ctrl=IDC_BAR
+22:00:21.05 [E]: Dlg=IDD_LOADING
+22:00:21.06 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.06 [E]: > D DC=001F0355
+22:00:21.06 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.06 [E]: > S DC=001F0354
+22:00:21.06 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.06 [E]: Ctrl=IDC_BAR
+22:00:21.06 [E]: Dlg=IDD_LOADING
+22:00:21.06 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.06 [E]: > D DC=00320219
+22:00:21.06 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.06 [E]: > S DC=00200355
+22:00:21.06 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.06 [E]: Ctrl=IDC_BAR
+22:00:21.06 [E]: Dlg=IDD_LOADING
+22:00:21.07 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.07 [E]: > D DC=00210354
+22:00:21.07 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.07 [E]: > S DC=00330219
+22:00:21.07 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.07 [E]: Ctrl=IDC_BAR
+22:00:21.07 [E]: Dlg=IDD_LOADING
+22:00:21.08 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.08 [E]: > D DC=00220355
+22:00:21.08 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.08 [E]: > S DC=00220354
+22:00:21.08 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.08 [E]: Ctrl=IDC_BAR
+22:00:21.08 [E]: Dlg=IDD_LOADING
+22:00:21.09 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:21.09 [E]: > D DC=00350219
+22:00:21.09 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:21.09 [E]: > S DC=00230355
+22:00:21.09 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:21.09 [E]: Ctrl=IDC_BAR
+22:00:21.09 [E]: Dlg=IDD_LOADING
+22:00:22.00 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.00 [E]: > D DC=00240354
+22:00:22.00 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.00 [E]: > S DC=00360219
+22:00:22.00 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.00 [E]: Ctrl=IDC_BAR
+22:00:22.00 [E]: Dlg=IDD_LOADING
+22:00:22.00 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.00 [E]: > D DC=00250355
+22:00:22.00 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.00 [E]: > S DC=00250354
+22:00:22.00 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.00 [E]: Ctrl=IDC_BAR
+22:00:22.00 [E]: Dlg=IDD_LOADING
+22:00:22.01 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.01 [E]: > D DC=00380219
+22:00:22.01 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.01 [E]: > S DC=00260355
+22:00:22.01 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.01 [E]: Ctrl=IDC_BAR
+22:00:22.01 [E]: Dlg=IDD_LOADING
+22:00:22.02 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.02 [E]: > D DC=00270354
+22:00:22.02 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.02 [E]: > S DC=00390219
+22:00:22.02 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.02 [E]: Ctrl=IDC_BAR
+22:00:22.02 [E]: Dlg=IDD_LOADING
+22:00:22.03 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.03 [E]: > D DC=00280355
+22:00:22.03 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.03 [E]: > S DC=00280354
+22:00:22.03 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.03 [E]: Ctrl=IDC_BAR
+22:00:22.03 [E]: Dlg=IDD_LOADING
+22:00:22.03 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.03 [E]: > D DC=003B0219
+22:00:22.03 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.03 [E]: > S DC=00290355
+22:00:22.03 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.03 [E]: Ctrl=IDC_BAR
+22:00:22.03 [E]: Dlg=IDD_LOADING
+22:00:22.05 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.05 [E]: > D DC=002A0354
+22:00:22.05 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.05 [E]: > S DC=003C0219
+22:00:22.05 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.05 [E]: Ctrl=IDC_BAR
+22:00:22.05 [E]: Dlg=IDD_LOADING
+22:00:22.05 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.05 [E]: > D DC=002B0355
+22:00:22.05 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.05 [E]: > S DC=002B0354
+22:00:22.05 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.05 [E]: Ctrl=IDC_BAR
+22:00:22.05 [E]: Dlg=IDD_LOADING
+22:00:22.06 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.06 [E]: > D DC=003E0219
+22:00:22.06 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.06 [E]: > S DC=002C0355
+22:00:22.06 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.06 [E]: Ctrl=IDC_BAR
+22:00:22.06 [E]: Dlg=IDD_LOADING
+22:00:22.07 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.07 [E]: > D DC=002D0354
+22:00:22.07 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.07 [E]: > S DC=003F0219
+22:00:22.07 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.07 [E]: Ctrl=IDC_BAR
+22:00:22.07 [E]: Dlg=IDD_LOADING
+22:00:22.08 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.08 [E]: > D DC=002E0355
+22:00:22.08 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.08 [E]: > S DC=002E0354
+22:00:22.08 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.08 [E]: Ctrl=IDC_BAR
+22:00:22.08 [E]: Dlg=IDD_LOADING
+22:00:22.08 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.08 [E]: > D DC=00410219
+22:00:22.08 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.08 [E]: > S DC=002F0355
+22:00:22.08 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.08 [E]: Ctrl=IDC_BAR
+22:00:22.08 [E]: Dlg=IDD_LOADING
+22:00:22.09 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:22.09 [E]: > D DC=00300354
+22:00:22.09 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:22.09 [E]: > S DC=00420219
+22:00:22.09 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:22.09 [E]: Ctrl=IDC_BAR
+22:00:22.09 [E]: Dlg=IDD_LOADING
+22:00:23.00 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:23.00 [E]: > D DC=00310355
+22:00:23.00 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:23.00 [E]: > S DC=00310354
+22:00:23.00 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:23.00 [E]: Ctrl=IDC_BAR
+22:00:23.00 [E]: Dlg=IDD_LOADING
+22:00:23.00 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:23.00 [E]: > D DC=00440219
+22:00:23.00 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:23.00 [E]: > S DC=00320355
+22:00:23.00 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:23.00 [E]: Ctrl=IDC_BAR
+22:00:23.00 [E]: Dlg=IDD_LOADING
+22:00:23.01 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:23.01 [E]: > D DC=00330354
+22:00:23.01 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:23.01 [E]: > S DC=00450219
+22:00:23.01 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:23.01 [E]: Ctrl=IDC_BAR
+22:00:23.01 [E]: Dlg=IDD_LOADING
+22:00:23.06 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:23.06 [E]: > D DC=00340355
+22:00:23.06 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:23.06 [E]: > S DC=00350354
+22:00:23.06 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:23.06 [E]: Ctrl=IDC_BAR
+22:00:23.06 [E]: Dlg=IDD_LOADING
+22:00:25.01 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:25.01 [E]: > D DC=00480219
+22:00:25.01 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:25.01 [E]: > S DC=00350355
+22:00:25.01 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:25.01 [E]: Ctrl=IDC_BAR
+22:00:25.01 [E]: Dlg=IDD_LOADING
+22:00:25.02 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:25.02 [E]: > D DC=00370354
+22:00:25.02 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:25.02 [E]: > S DC=00490219
+22:00:25.02 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:25.02 [E]: Ctrl=IDC_BAR
+22:00:25.02 [E]: Dlg=IDD_LOADING
+22:00:26.00 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:26.00 [E]: > D DC=00370355
+22:00:26.00 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:26.00 [E]: > S DC=00380354
+22:00:26.00 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:26.00 [E]: Ctrl=IDC_BAR
+22:00:26.00 [E]: Dlg=IDD_LOADING
+22:00:26.02 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:26.02 [E]: > D DC=004B0219
+22:00:26.02 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:26.02 [E]: > S DC=00390355
+22:00:26.02 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:26.02 [E]: Ctrl=IDC_BAR
+22:00:26.02 [E]: Dlg=IDD_LOADING
+22:00:26.06 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:26.06 [E]: > D DC=003B0354
+22:00:26.06 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:26.06 [E]: > S DC=004D0219
+22:00:26.06 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:26.06 [E]: Ctrl=IDC_BAR
+22:00:26.06 [E]: Dlg=IDD_LOADING
+22:00:27.01 [E]: CDIBSkin:DrawSection():Failed:  [Section=R] [fn=AlphaBlend] 87='Invalid parameter.
+'
+22:00:27.01 [E]: > D DC=003C0355
+22:00:27.01 [E]: > D (x,y,w,h)=922,695,2,8
+22:00:27.01 [E]: > S DC=003C0354
+22:00:27.01 [E]: > S (x,y,w,h)=0,0,2,8
+22:00:27.01 [E]: Ctrl=IDC_BAR
+22:00:27.01 [E]: Dlg=IDD_LOADING
+22:00:43.01 [E]: AudioControl::AC_PlaySFX(59) failed
+Journal close, Date: Saturday 2023/05/20 22:00:43

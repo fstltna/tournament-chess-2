@@ -1,0 +1,2387 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOADING DIALOG DISCARDABLE  0, 0, 239, 169
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",IDC_BAR,"msctls_progress32",WS_BORDER,45,150,
+                    112,14
+    CONTROL         "",IDC_IMAGE_BOX,"AifImage",WS_DISABLED,5,5,230,135
+END
+
+IDD_CREDITS DIALOG DISCARDABLE  0, 0, 201, 234
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,12,75,177,114
+    GROUPBOX        "",IDC_STATIC,12,192,177,21
+    GROUPBOX        "",IDC_STATIC,12,18,177,54
+    CTEXT           "Global Star Software 'Tournament Chess II'",IDC_STATIC,
+                    12,3,177,10,SS_SUNKEN
+    CTEXT           "<!!><!!RGB:MIDRED>Commissioned and Published by Global Star Software\nFor other great products and support visit\n<!!RGB:MIDBLUE>www.GlobalStarSoftware.com",
+                    IDC_STATIC,18,78,165,27,SS_SUNKEN
+    CTEXT           "<!!><!!RGB:MIDBLUE>General Manager                    Producer        <!!/RGB>\nChris Mate                         Tim Beggs\n<!!RGB:MIDBLUE>Graphic Artists<!!/RGB>\nPeter Muench       Christine Bates\tMichael Tipul\n<!!RGB:MIDBLUE>Marketing<!!/RGB>\nAnne-Marie ",
+                    IDC_STATIC,18,105,165,51,SS_SUNKEN
+    CTEXT           "<!!><!!RGB:MIDBLUE>Quality Assurance<!!/RGB>\nMatthew Baros         Joe Covello          Adam Egender\n     Rich Koeckert             Tom McConlogue\n                         Josh Noll                     Mykl Ranere                     ",
+                    IDC_STATIC,18,156,165,33,SS_SUNKEN
+    CTEXT           "<!!><!!RGB:MIDRED>Software developed by AI Factory Limited (UK)<!!/RGB>\n<!!RGB:MIDBLUE>www.AIFactory.co.uk",
+                    IDC_STATIC,18,18,165,21,SS_SUNKEN
+    LTEXT           "Jeff Rollason\nDan Orme\nAndrew Ray\nKirstie Berry",
+                    IDC_STATIC,18,38,54,33,SS_SUNKEN
+    CTEXT           "<!!><!!RGB:MIDRED>Music and SFX<!!/RGB>\nSimon Burgess (Hasen Music) - <!!RGB:MIDBLUE>www.Hasen.co.uk<!!/RGB>",
+                    IDC_STATIC,18,192,165,21,SS_SUNKEN
+    PUSHBUTTON      "Back",IDOK,81,219,39,12,BS_CENTER | BS_VCENTER
+    RTEXT           "AI Programmer / Managing Director\nUI Designer+Programmer / Director\nUI Programmer / Tec. Director\nArtist / Artistic Director",
+                    IDC_STATIC,78,38,106,33,SS_SUNKEN
+END
+
+IDD_STATUS_BAR DIALOG DISCARDABLE  0, 0, 266, 19
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CTEXT           "Info",IDC_TEXT,6,2,254,16,SS_CENTERIMAGE | SS_SUNKEN
+END
+
+IDD_MAIN_MENU DIALOG DISCARDABLE  0, 0, 94, 170
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Play Game",IDC_01,4,16,86,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Select Character",IDC_02,4,32,86,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Save Settings",IDC_03,4,48,86,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Net-Connect",IDC_10,4,70,86,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Ratings and Stats",IDC_04,4,86,86,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Game Options",IDC_05,4,102,86,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Help",IDC_06,4,118,86,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Credits",IDC_07,4,134,86,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Close",IDC_08,4,152,26,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Exit Chess",IDC_09,42,152,48,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Main Menu",IDC_STATIC,4,4,85,8
+END
+
+IDD_GAME_MODE_HOME DIALOG DISCARDABLE  0, 0, 89, 116
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Match Play",IDC_01,5,15,80,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Setup Game",IDC_02,5,35,80,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Historical Game",IDC_03,5,50,80,15,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Logged Game",IDC_04,5,65,80,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Practice Game",IDC_05,5,80,80,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back",IDC_08,20,98,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Game Type",IDC_STATIC,6,2,80,8
+END
+
+IDD_GAME_SELECTION DIALOG DISCARDABLE  0, 0, 100, 111
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",IDC_OK,62,94,32,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Chess",IDC_CHESS_VS1,"Button",BS_AUTORADIOBUTTON,24,18,
+                    69,10
+    CONTROL         "Random Chess",IDC_CHESS_VS2,"Button",BS_AUTORADIOBUTTON,
+                    24,30,69,10
+    CONTROL         "Rifle Chess",IDC_CHESS_VS3,"Button",BS_AUTORADIOBUTTON,
+                    24,42,69,10
+    CONTROL         "Swap Chess",IDC_CHESS_VS4,"Button",BS_AUTORADIOBUTTON,
+                    24,54,69,10
+    CONTROL         "Back Rank Chess",IDC_CHESS_VS5,"Button",
+                    BS_AUTORADIOBUTTON,24,66,69,10
+    CONTROL         "Losing Chess",IDC_CHESS_VS6,"Button",BS_AUTORADIOBUTTON,
+                    24,78,69,10
+    PUSHBUTTON      "Close",IDC_BACK,6,94,32,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Game Selection",IDC_STATIC,2,2,94,8
+END
+
+IDD_MSG_BOX_OK DIALOG DISCARDABLE  0, 0, 162, 73
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CTEXT           "Title",IDC_TITLE,3,3,155,8
+    CTEXT           "Text\nText",IDC_TEXT,3,19,155,36
+    PUSHBUTTON      "OK",IDC_01,56,56,50,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_GAME_MENU DIALOG DISCARDABLE  0, 0, 99, 192
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Review / Takeback",IDC_02,3,12,93,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Overhead View",IDC_01,3,27,93,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Hint  (H)",IDC_11,3,42,37,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Move Now  (M)",IDC_13,42,42,54,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Net-Disconnect",IDC_12,3,99,93,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Ratings and Stats",IDC_03,3,114,93,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Resign Game",IDC_04,3,63,45,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Resign Match",IDC_05,51,63,45,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Export Game",IDC_06,3,129,93,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Game Options",IDC_07,3,144,93,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Help",IDC_08,3,159,93,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Close",IDC_09,3,177,36,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Exit Chess",IDC_10,45,177,51,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Game Menu",IDC_STATIC,20,0,60,10,SS_CENTERIMAGE
+    PUSHBUTTON      "Suspend Match",IDC_14,3,78,93,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_WORLD_SELECT DIALOG DISCARDABLE  0, 0, 79, 94
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Home",IDC_01,5,15,70,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Club",IDC_02,5,35,70,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Tournament",IDC_03,5,55,70,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back",IDC_05,5,75,30,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Exit Game",IDC_04,40,75,35,15,BS_CENTER | BS_VCENTER
+    CTEXT           "Select World",IDC_STATIC,5,5,70,8
+END
+
+IDD_MSG_BOX_YESNO DIALOGEX 0, 0, 145, 69
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Yes",IDC_01,89,50,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "No",IDC_02,6,50,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Title",IDC_TITLE,2,2,139,8,0,WS_EX_STATICEDGE
+    CTEXT           "Text\nText",IDC_TEXT,2,14,139,31,0,WS_EX_STATICEDGE
+END
+
+IDD_OPTIONS_SFX DIALOG DISCARDABLE  0, 0, 149, 109
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,20,140,67,BS_CENTER | WS_GROUP
+    PUSHBUTTON      "Back",IDOK,50,90,50,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Sound effects enabled",IDC_SFX_ENABLED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,35,25,83,10
+    CONTROL         "Ambient effects enabled",IDC_SFX_ENABLED_AMBIENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,35,35,88,10
+    CONTROL         "Slider1",IDC_SLIDER_SFX_VOLUME,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,15,65,119,14
+    CTEXT           "Audio options. Sound effects.",IDC_STATIC,2,2,142,11
+    LTEXT           "Min",IDC_STATIC,10,55,18,10
+    CTEXT           "Sound effects volume",IDC_STATIC,35,55,71,10
+    RTEXT           "Max",IDC_STATIC,120,55,18,10
+END
+
+IDD_OPTIONS_JUKEBOX DIALOG DISCARDABLE  0, 0, 163, 198
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,16,32,131,66,BS_CENTER | WS_GROUP
+    PUSHBUTTON      "Back",IDOK,57,168,50,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Enable Music",IDC_JUKEBOX_ENABLED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,25,40,58,10
+    CONTROL         "Continuous play",IDC_JUKEBOX_CONTPLAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,86,40,61,10
+    CONTROL         "Slider1",IDC_SLIDER_JUKEBOX_VOLUME,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,25,74,113,14
+    PUSHBUTTON      "Previous",IDC_BUT_PREV,16,118,33,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Next",IDC_BUT_NEXT,16,148,33,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Music options",IDC_STATIC,16,16,131,10
+    LTEXT           "Min",IDC_STATIC,25,60,18,10
+    CTEXT           "Music volume",IDC_STATIC,46,60,71,10
+    RTEXT           "Max",IDC_STATIC,120,60,18,10
+    CTEXT           "---",IDC_STATIC_STATUS,16,106,131,8
+    LTEXT           "---",IDC_STATIC_PREV_TRACK,52,121,95,8
+    CTEXT           "Current",IDC_STATIC_CURRENT,16,136,36,8
+    LTEXT           "---",IDC_STATIC_CURRENT_TRACK,51,136,96,8
+    LTEXT           "---",IDC_STATIC_NEXT_TRACK,52,151,96,8
+END
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 82, 114
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Gameplay Settings",IDC_01,4,16,74,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Boards and Pieces",IDC_02,4,32,74,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Music",IDC_03,4,48,74,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Sound effects",IDC_04,4,64,74,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Display",IDC_05,4,80,74,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back",IDC_06,20,98,42,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Options",IDC_STATIC,5,5,73,8
+END
+
+IDD_JUKEBOX_INFO DIALOG DISCARDABLE  0, 0, 167, 100
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CTEXT           "Music",IDC_STATIC,16,16,135,11
+    CTEXT           "---",IDC_STATIC_STATUS,16,30,135,11
+    RTEXT           "Previous: ",IDC_STATIC,16,46,34,8
+    LTEXT           "---",IDC_STATIC_PREV_TRACK,50,45,101,11
+    RTEXT           "Current: ",IDC_STATIC,16,61,34,8
+    LTEXT           "---",IDC_STATIC_CURRENT_TRACK,50,60,101,11
+    RTEXT           "Next: ",IDC_STATIC,16,76,34,8
+    LTEXT           "---",IDC_STATIC_NEXT_TRACK,50,76,101,8
+END
+
+IDD_CHAR_WELCOME DIALOG DISCARDABLE  0, 0, 136, 86
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CTEXT           "Welcome",IDC_STATIC,16,16,104,12
+    CTEXT           "---",IDC_STATIC_NEWNAME,16,37,104,12
+    PUSHBUTTON      "Ok",1016,43,56,50,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_CHAR_UNSAVED_WARNING DIALOG DISCARDABLE  0, 0, 163, 105
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Yes",IDC_YES,84,88,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "No",IDC_NO,29,88,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Unsaved Game Warning",IDC_STATIC,2,2,157,10
+    CTEXT           "Your current game is not saved.\n\nIf you create a new character, or choose an\nold saved character then your unsaved\ngame will be lost.\n\nDo you wish to save your current game now ?",
+                    IDC_STATIC,2,21,157,59
+END
+
+IDD_CHAR_SAVED_ACK DIALOG DISCARDABLE  0, 0, 131, 34
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CTEXT           "Your current game has been saved.",IDC_STATIC,2,2,125,
+                    12
+    PUSHBUTTON      "Ok",IDC_OK,39,17,50,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_CHAR_P1_REMOVE DIALOG DISCARDABLE  0, 0, 99, 38
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Yes",IDC_CONFIRM_REMOVAL,58,20,36,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "No",IDC_CANCEL_REMOVAL,4,20,35,14,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "Are you sure?",IDC_STATIC,4,2,92,12
+END
+
+IDD_CHAR_P1_MAIN_FORCE DIALOG DISCARDABLE  0, 0, 85, 79
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Create New",IDC_CREATE_CHARACTER,16,31,53,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Choose",IDC_CHOOSE_CHARACTER,16,49,53,14,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "Your character",IDC_STATIC,16,16,53,10
+END
+
+IDD_CHAR_P1_MAIN DIALOG DISCARDABLE  0, 0, 70, 93
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Select",IDC_CHOOSE_CHARACTER,3,20,63,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Create",IDC_CREATE_CHARACTER,3,42,63,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Manage",IDC_MANAGE_CHARACTER,3,58,63,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Back",IDC_BACK,16,76,37,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Character",IDC_STATIC,3,3,63,10
+END
+
+IDD_PGN_SAVE_NAME DIALOG DISCARDABLE  0, 0, 108, 54
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Save",IDC_SAVE,69,36,36,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Cancel",IDC_CANCEL,3,36,36,14,BS_CENTER | BS_VCENTER
+    EDITTEXT        IDC_FILENAME,3,18,102,14,ES_AUTOHSCROLL
+    CTEXT           "Type a file name for the PGN file",IDC_STATIC,3,3,102,8
+END
+
+IDD_CHAR_P1_CHOOSE DIALOG DISCARDABLE  0, 0, 99, 104
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Select",IDC_CHOOSE,58,84,36,14,BS_CENTER | BS_VCENTER
+    LISTBOX         IDC_LIST,5,20,79,59,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Back",IDC_BACK,6,84,37,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Choose your character",IDC_STATIC,5,5,90,8
+END
+
+IDD_CHAR_P1_RESUME DIALOGEX 0, 0, 195, 78
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Back",IDC_BACK,131,47,50,16,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "New",IDC_CHOOSE,73,47,50,16,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Resume",IDC_OK,16,47,50,16,BS_CENTER | BS_VCENTER
+    CTEXT           "Either resume the game you were\nplaying or discard it and start a\nnew game.",
+                    IDC_STATIC,16,16,164,28,0,WS_EX_STATICEDGE
+END
+
+IDD_OPTIONS_DISPLAY DIALOG DISCARDABLE  0, 0, 210, 179
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,15,202,125
+    LISTBOX         IDC_DISP_RES_LIST,12,64,115,48,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_ANTI_ALIAS_LIST,147,64,45,48,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Apply",ID_SELECT,78,120,54,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Shiny Objects",IDC_CHK_VERTEX_SHADING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,21,144,80,11
+    CONTROL         "Reflective Board",IDC_CHK_PIECE_REFLECT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,126,144,75,11
+    PUSHBUTTON      "Back",IDOK,84,159,42,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Low",ID_CHK_TEXTURE_LOW,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER,27,36,36,11
+    CONTROL         "Medium",ID_CHK_TEXTURE_MEDIUM,"Button",
+                    BS_AUTORADIOBUTTON | BS_LEFT | BS_VCENTER,87,36,36,11
+    CONTROL         "High",ID_CHK_TEXTURE_HIGH,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER,153,36,36,11
+    CTEXT           "Display resolutions",IDC_STATIC_DR,12,54,132,10
+    CTEXT           "Display options",IDC_STATIC,4,5,203,9
+    CTEXT           "Texture quality",IDC_STATIC_TQ,10,20,191,10
+    CTEXT           "Anti-aliasing",IDC_STATIC,147,54,55,8,SS_CENTERIMAGE
+END
+
+IDD_OPTIONS_QUERY_CHANGE DIALOG DISCARDABLE  0, 0, 130, 87
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Yes",IDOK,75,69,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "No",IDNO,3,69,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Display options - Confirm action",IDC_STATIC,3,3,122,11
+    CTEXT           "Changing the texture quality or display\nresolution will force a re-load of the game\n artwork. This may take a few seconds.\n\nAre you sure you wish to continue ?",
+                    IDC_STATIC,3,21,122,45
+END
+
+IDD_HELP DIALOGEX 0, 0, 271, 239
+STYLE WS_POPUP
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Back",IDC_BACK,125,220,20,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Close Help",IDOK,205,220,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "\n\nERROR\n\nHelp file not found.",IDC_STATIC,16,16,239,
+                    194,0,WS_EX_STATICEDGE
+END
+
+IDD_PLAYER_INFO DIALOG DISCARDABLE  0, 0, 142, 101
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Back",IDC_02,46,84,50,14,BS_CENTER | BS_VCENTER
+    RTEXT           "Name: ",IDC_STATIC,2,22,29,8
+    LTEXT           "Static",IDC_P1_NAME,31,22,107,8
+    CONTROL         "Progress1",IDC_P1_PROG,"msctls_progress32",WS_BORDER,31,
+                    32,107,13
+    RTEXT           "0.0% ",IDC_P1_PER,2,37,29,8
+    RTEXT           "Name: ",IDC_STATIC,2,52,29,8
+    LTEXT           "Static",IDC_P2_NAME,31,52,107,8
+    CONTROL         "Progress1",IDC_P2_PROG,"msctls_progress32",WS_BORDER,31,
+                    62,107,13
+    RTEXT           "0.0% ",IDC_P2_PER,2,67,29,8
+    CTEXT           "Player Info",IDC_STATIC,2,2,136,8
+END
+
+IDD_GAMEPLAY_SETTINGS DIALOG DISCARDABLE  0, 0, 201, 120
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Accept",IDC_02,156,102,40,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Cancel",IDC_01,112,102,40,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Gameplay Settings",IDC_STATIC,6,4,192,8,SS_CENTERIMAGE
+    CONTROL         "Show Move List",IDC_CHK_MOVE_LIST,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,18,90,10
+    CONTROL         "Show Board Grid",IDC_CHK_SHOW_GRID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,30,90,10
+    CONTROL         "Move Announcer",IDC_CHK_MOVE_VOICE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,108,42,90,10
+    CONTROL         "Show Legal Squares",IDC_CHK_LEGAL_MOVES_SHOWN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,42,90,10
+    CONTROL         "Collision Detection",IDC_CHK_COLLISIONS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,108,18,90,10
+    CONTROL         "Animate Computer Moves",IDC_CHK_ANIMATE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,84,90,10
+    CONTROL         "Animate Game Setup",IDC_CHK_ANIMATE_SETUP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,108,84,90,10
+    CONTROL         "Reset Camera For Games",IDC_CHK_CAMERA_RESET,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,108,30,90,10
+    CONTROL         "Show Computers Mood",IDC_CHK_AI_SMILEY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,54,90,10
+    CONTROL         "Allow Computer Resigns",IDC_CHK_RESIGN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,108,54,90,10
+    CONTROL         "Auto Hint Calculation",IDC_CHK_AUTO_HINT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,108,66,90,10
+    CONTROL         "Show Best Computer Move",IDC_CHK_HIGHLIGHT_BEST,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,66,90,10
+    PUSHBUTTON      "Reset Learned Book",IDC_03,6,102,70,14,BS_CENTER | 
+                    BS_VCENTER
+END
+
+IDD_MSG_BOX_OK1 DIALOG DISCARDABLE  0, 0, 149, 85
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CTEXT           "Title",IDC_TITLE,3,3,142,8
+    CTEXT           "Text\nText\nText\nText\nText\nText\nText",IDC_TEXT,3,17,
+                    142,48
+    PUSHBUTTON      "OK",IDC_01,49,68,50,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_PROMOTIONAL DIALOG DISCARDABLE  0, 0, 194, 159
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_IMAGE_BOX,"AifImage",WS_DISABLED,5,5,183,131
+END
+
+IDD_AI_PLAYER_INFO DIALOG DISCARDABLE  0, 0, 224, 150
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,81,66,138,81
+    GROUPBOX        "",IDC_STATIC,81,20,138,46
+    PUSHBUTTON      "Select",IDC_SELECT,39,132,32,14,BS_CENTER | BS_VCENTER
+    LISTBOX         IDC_LIST,5,20,60,48,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Back",IDC_BACK,3,132,32,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Available Players",IDC_STATIC,5,4,215,8,SS_CENTERIMAGE
+    LTEXT           "0",IDC_MATCH_WIN,135,36,15,8
+    LTEXT           "",IDC_DESCRIPTION,85,72,130,60
+    LTEXT           "Match Wins:",IDC_STATIC,84,36,42,9
+    LTEXT           "0",IDC_MATCH_LOSS,135,45,15,8
+    LTEXT           "Match Losses:",IDC_STATIC,84,45,45,9
+    LTEXT           "0",IDC_GAME_WIN,204,36,15,8
+    LTEXT           "Game Wins:",IDC_STATIC,153,36,42,9
+    LTEXT           "0",IDC_GAME_LOSS,204,45,15,8
+    LTEXT           "Game Losses:",IDC_STATIC,153,45,45,9
+    LTEXT           "Current Rating:",IDC_STATIC,114,135,45,9
+    LTEXT           "",IDC_CURRENT_RATING,162,135,25,8
+    CONTROL         "",IDC_IMAGE,"AifImage",WS_DISABLED,18,72,45,54
+    CTEXT           "Your history versus *",IDC_RESULT_TEXT,85,25,130,8,
+                    SS_CENTERIMAGE
+    LTEXT           "Match Draws:",IDC_STATIC,84,54,45,9
+    LTEXT           "0",IDC_MATCH_DRAWS,135,54,15,8
+    LTEXT           "Game Draws:",IDC_STATIC,153,54,45,9
+    LTEXT           "0",IDC_GAME_DRAWS,204,54,15,8
+END
+
+IDD_CHEAT DIALOG DISCARDABLE  0, 0, 144, 150
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,10,66,123,40
+    GROUPBOX        "",IDC_STATIC,10,14,121,47
+    PUSHBUTTON      "Club",IDC_04,13,88,24,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Tournament",IDC_05,38,88,47,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Chess Sets",IDC_09,88,88,42,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "OK",IDC_06,46,132,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Cheat Mode",IDC_STATIC,0,0,135,8,SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_RIGHTJUST | SS_REALSIZEIMAGE
+    CTEXT           "Gain access to: ",IDC_STATIC,44,72,53,8,SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_RIGHTJUST | SS_REALSIZEIMAGE
+    CTEXT           "Will cause opponent to resign, \nwhen you choose the option",
+                    IDC_STATIC,12,39,117,19,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_RIGHTJUST | SS_REALSIZEIMAGE
+    CONTROL         "Manual Movement",IDC_MANUAL_MOVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,36,112,76,10
+    CONTROL         "Reverse Resigns",IDC_REVERSE_RESIGNS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,34,24,76,10
+END
+
+IDD_PRACTICE_OPTIONS DIALOG DISCARDABLE  0, 0, 188, 188
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,4,14,180,42
+    GROUPBOX        "",IDC_STATIC,4,58,180,42
+    GROUPBOX        "",IDC_STATIC,4,102,180,46
+    PUSHBUTTON      "Play",IDC_01,112,172,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back",IDC_02,26,172,50,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Slider1",IDC_LEVEL,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,18,36,156,14
+    CTEXT           "Practice Game Options",IDC_STATIC,2,3,182,8
+    LTEXT           "Easy",IDC_STATIC,8,22,23,8
+    CTEXT           "Computer Level",IDC_LEVEL_TEXT,58,20,72,8
+    RTEXT           "Hard",IDC_STATIC,154,22,25,8
+    CONTROL         "Coach Active",IDC_COACH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,156,54,10
+    CTEXT           "Computer Knowledge",IDC_STATIC,42,64,108,8
+    CONTROL         "Complex",IDC_COMPLEX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,72,120,54,10
+    CONTROL         "Pawn Structure",IDC_PAWN_STRUCTURE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,76,54,10
+    CONTROL         "King Safety",IDC_KING_SAFETY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,76,54,10
+    CONTROL         "Pins and Discovered Attacks",IDC_PINS_AND_DISC,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,48,88,100,10
+    CONTROL         "Tied Pieces",IDC_TIED_PIECES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,76,52,10
+    CTEXT           "Computer Play Style",IDC_STATIC,42,108,108,8
+    CONTROL         "Aggressive",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,130,
+                    134,52,10
+    CONTROL         "Timid",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,14,134,54,
+                    10
+    CONTROL         "Measured",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,72,134,
+                    54,10
+END
+
+IDD_CHAR_P1_MANAGE DIALOG DISCARDABLE  0, 0, 126, 134
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST,4,22,105,66,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Back",IDC_BACK,39,114,48,17,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Edit",IDC_EDIT,66,93,54,17,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Remove",IDC_REMOVE,6,93,54,17,BS_CENTER | BS_VCENTER
+    CTEXT           "Character Management",IDC_STATIC,4,4,118,10
+END
+
+IDD_CHAR_P1_EDIT DIALOG DISCARDABLE  0, 0, 192, 86
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,49,34,135,17,ES_AUTOHSCROLL
+    PUSHBUTTON      "Accept",IDC_CONFIRM_EDIT,117,63,67,17,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Cancel",IDC_BACK,6,63,67,17,BS_CENTER | BS_VCENTER
+    CTEXT           "Edit This Character",IDC_STATIC,6,5,178,10
+    CTEXT           "---",IDC_STATIC_MESSAGE,6,21,178,10
+    RTEXT           "Name: ",IDC_STATIC,6,37,32,10
+END
+
+IDD_P1_SNOOKER_INDICATOR DIALOG DISCARDABLE  0, 0, 116, 19
+STYLE WS_POPUP | WS_BORDER
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name",IDC_PLAYER_NAME,3,3,57,9,SS_CENTERIMAGE
+    CTEXT           "Time",IDC_TIME_TEXT,64,0,26,8
+    CTEXT           "999",IDC_TIME,60,9,33,8,SS_SUNKEN
+    CTEXT           "99",IDC_GAMES,93,6,13,8
+    CONTROL         "",IDC_IMAGE,"AifImage",WS_DISABLED,108,4,6,10
+END
+
+IDD_REPLAY_BAR DIALOG DISCARDABLE  0, 0, 355, 19
+STYLE WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Back",IDBACKTOGAME,2,2,36,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Play From Here",IDRESUMEGAME,42,2,123,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "| <",IDFIRST,258,2,22,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "<",IDPREV,282,2,20,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      ">",IDNEXT,306,2,20,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "> |",IDLAST,328,2,20,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_GAME_LENGTH DIALOG DISCARDABLE  0, 0, 286, 173
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,4,96,92,72
+    GROUPBOX        "",IDC_STATIC,186,96,96,72
+    GROUPBOX        "",IDC_STATIC,100,60,82,72
+    GROUPBOX        "",IDC_STATIC,4,16,92,80
+    GROUPBOX        "",IDC_STATIC,186,16,96,80
+    GROUPBOX        "",IDC_STATIC,100,134,82,34
+    PUSHBUTTON      "Accept",IDC_ACCEPT,202,146,66,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back",IDC_BACK,202,128,66,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "<  SWAP SIDES  >",IDC_SWAP,100,20,82,14,BS_CENTER | 
+                    BS_VCENTER
+    CONTROL         "Single",IDC_GAMES1,"Button",BS_AUTORADIOBUTTON,118,80,
+                    48,10
+    CONTROL         "Best of 2",IDC_GAMES2,"Button",BS_AUTORADIOBUTTON,118,
+                    92,48,10
+    CONTROL         "Best of 4",IDC_GAMES3,"Button",BS_AUTORADIOBUTTON,118,
+                    104,48,10
+    CONTROL         "Best of 6",IDC_GAMES4,"Button",BS_AUTORADIOBUTTON,118,
+                    116,48,10
+    CONTROL         "Pawn",IDC_WHITE_HANDICAP1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,117,54,10
+    CONTROL         "Knight",IDC_WHITE_HANDICAP2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,127,54,10
+    CONTROL         "Rook",IDC_WHITE_HANDICAP3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,137,54,10
+    CONTROL         "Queen",IDC_WHITE_HANDICAP4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,147,54,10
+    CONTROL         "Learning Active",IDC_LEARNING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,104,154,70,10
+    CONTROL         "Use Learned Book",IDC_LEARNT_BOOK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,142,76,10
+    CTEXT           "WHITE",IDC_STATIC,8,20,84,12,SS_CENTERIMAGE
+    CTEXT           "BLACK",IDC_STATIC,190,20,88,12,SS_CENTERIMAGE
+    CTEXT           "Name 1",IDC_WHITE_NAME,8,36,84,12,SS_CENTERIMAGE
+    CTEXT           "Name 2",IDC_BLACK_NAME,190,36,88,12,SS_CENTERIMAGE
+    CTEXT           "Type 1",IDC_WHITE_TYPE,8,50,84,12,SS_CENTERIMAGE
+    CTEXT           "Type 2",IDC_BLACK_TYPE,190,50,88,12,SS_CENTERIMAGE
+    CTEXT           "Games",IDC_STATIC,99,66,81,9,SS_CENTERIMAGE
+    CTEXT           "White Handicap",IDC_HANDICAP_TITLE,9,102,84,8,
+                    SS_CENTERIMAGE
+    CTEXT           "Match Settings",IDC_STATIC,6,4,274,8,SS_CENTERIMAGE
+    CONTROL         "COMPETITIVE MATCH",IDC_UPDATE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,192,106,91,10
+    PUSHBUTTON      "Change Timer",IDC_TIMER1,18,78,66,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Change Timer",IDC_TIMER2,202,78,66,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Global Timer",IDC_GLOBAL_TIMER,100,42,82,16,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "Timer 1",IDC_WHITE_TIMER_TEXT,8,64,84,12,SS_CENTERIMAGE
+    CTEXT           "Timer 2",IDC_BLACK_TIMER_TEXT,190,64,88,12,
+                    SS_CENTERIMAGE
+END
+
+IDD_P2_SNOOKER_INDICATOR DIALOG DISCARDABLE  0, 0, 116, 19
+STYLE WS_POPUP | WS_BORDER
+FONT 10, "MS Sans Serif"
+BEGIN
+    RTEXT           "Name",IDC_PLAYER_NAME,54,3,58,9,SS_CENTERIMAGE
+    CTEXT           "Time",IDC_TIME_TEXT,26,0,24,8
+    CTEXT           "999",IDC_TIME,21,9,33,8,SS_SUNKEN
+    CTEXT           "99",IDC_GAMES,12,6,8,8
+    CONTROL         "",IDC_IMAGE,"AifImage",WS_DISABLED,4,4,6,10
+END
+
+IDD_GAME_OVER DIALOG DISCARDABLE  0, 0, 196, 128
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,10,5,176,101,BS_LEFT
+    PUSHBUTTON      "Continue",IDC_CONTINUE,125,108,50,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Review Game",IDC_REVIEW,20,108,50,14,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "State Winner Here",IDC_WINNER,16,26,165,25,
+                    SS_CENTERIMAGE
+    CTEXT           "Player 1 Rating",IDC_PLAYER1_RATING,16,56,165,20,
+                    SS_CENTERIMAGE
+    CTEXT           "Player 2 Rating",IDC_PLAYER2_RATING,16,81,165,20,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Win Title Here",IDC_TITLE,16,10,165,10,
+                    SS_CENTERIMAGE
+END
+
+IDD_MATCH_OVER DIALOG DISCARDABLE  0, 0, 216, 71
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,10,5,195,40,BS_LEFT
+    PUSHBUTTON      "Continue",IDC_CONTINUE,80,50,55,14,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "State Winner Here",IDC_WINNER,20,15,175,20,
+                    SS_CENTERIMAGE
+END
+
+IDD_TOURNAMENT DIALOG DISCARDABLE  0, 0, 527, 385
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,225,110,80,25
+    GROUPBOX        "",IDC_BOX_01,0,10,70,25
+    GROUPBOX        "",IDC_BOX_02,0,65,70,25
+    GROUPBOX        "",IDC_BOX_03,0,100,70,25
+    GROUPBOX        "",IDC_BOX_04,0,155,70,25
+    GROUPBOX        "",IDC_BOX_05,0,210,70,25
+    GROUPBOX        "",IDC_BOX_06,0,265,70,25
+    GROUPBOX        "",IDC_BOX_07,0,300,70,25
+    GROUPBOX        "",IDC_BOX_08,0,355,70,25
+    GROUPBOX        "",IDC_STATIC,60,34,70,30
+    GROUPBOX        "",IDC_STATIC,60,125,70,30
+    GROUPBOX        "",IDC_STATIC,60,234,70,30
+    GROUPBOX        "",IDC_STATIC,60,325,70,30
+    GROUPBOX        "",IDC_STATIC,110,75,70,40
+    GROUPBOX        "",IDC_STATIC,110,275,70,40
+    GROUPBOX        "",IDC_BOX_09,455,10,70,25
+    GROUPBOX        "",IDC_BOX_10,455,65,70,25
+    GROUPBOX        "",IDC_BOX_11,455,100,70,25
+    GROUPBOX        "",IDC_BOX_12,455,155,70,25
+    GROUPBOX        "",IDC_BOX_13,455,210,70,25
+    GROUPBOX        "",IDC_BOX_14,455,265,70,25
+    GROUPBOX        "",IDC_BOX_15,455,300,70,25
+    GROUPBOX        "",IDC_BOX_16,455,355,70,25
+    GROUPBOX        "",IDC_STATIC,395,34,70,30
+    GROUPBOX        "",IDC_STATIC,395,125,70,30
+    GROUPBOX        "",IDC_STATIC,395,234,70,30
+    GROUPBOX        "",IDC_STATIC,395,325,70,30
+    GROUPBOX        "",IDC_STATIC,345,75,70,40
+    GROUPBOX        "",IDC_STATIC,345,275,70,40
+    GROUPBOX        "",IDC_STATIC,170,140,65,105
+    GROUPBOX        "",IDC_STATIC,295,140,65,105
+    GROUPBOX        "",IDC_STATIC,185,285,155,80
+    GROUPBOX        "",IDC_STATIC,188,28,150,32
+    PUSHBUTTON      "Continue",IDC_CONTINUE,235,368,54,14,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "<!!><!!RGB:PaleCyan>FINAL<!!/RGB>",IDC_STATIC,180,295,
+                    165,8,SS_CENTERIMAGE
+    CTEXT           "<!!><!!RGB:PaleCyan>CHAMPION<!!/RGB>",IDC_STATIC,180,
+                    335,165,8,SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_01,0,13,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_02,0,23,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_03,0,68,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_04,0,78,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_05,0,103,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_06,0,113,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_07,0,158,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_08,0,168,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_09,0,213,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_10,0,223,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_11,0,268,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_12,0,278,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_13,0,303,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_14,0,313,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_15,0,358,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_16,0,368,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_17,455,13,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_18,455,23,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_19,455,68,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_20,455,78,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_21,455,103,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_22,455,113,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_23,455,158,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_24,455,168,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_25,455,213,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_26,455,223,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_27,455,268,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_28,455,278,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_29,455,303,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_30,455,313,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_31,455,358,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_32,455,368,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_33,60,37,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_34,60,53,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_35,60,128,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_36,60,143,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_37,60,237,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_38,60,253,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_39,60,328,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_40,60,343,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_41,395,37,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_42,395,53,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_43,395,128,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_44,395,143,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_45,395,237,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_46,395,253,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_47,395,328,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_48,395,343,69,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_49,110,83,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_50,110,98,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_51,110,283,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_52,110,298,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_53,345,83,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_54,345,98,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_55,345,283,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_56,345,298,70,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_57,170,153,65,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_58,170,223,65,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_59,295,153,64,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_60,295,223,64,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_61,180,308,85,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_PLAYER_NAME_62,265,308,80,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Put Name Here",IDC_CHAMPION,180,348,165,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Versus",IDC_STATIC,175,190,55,8,SS_CENTERIMAGE
+    CTEXT           "Versus",IDC_STATIC,300,190,55,8,SS_CENTERIMAGE
+    CTEXT           "<!!><!!RGB:PaleCyan>SEMI FINALS<!!/RGB>",IDC_STATIC,230,
+                    120,70,8,SS_CENTERIMAGE
+    CTEXT           "Tournament Title",IDC_TITLE,192,38,144,12,
+                    SS_CENTERIMAGE
+END
+
+IDD_F1MENU DIALOG DISCARDABLE  0, 0, 56, 14
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "ESC = Menu",IDC_MENU,0,0,55,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_MATCHUP DIALOG DISCARDABLE  0, 0, 127, 157
+STYLE WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,20,118,116
+    CTEXT           "Next Game",IDC_GAME_INTRO,5,5,118,10,SS_CENTERIMAGE
+    CTEXT           "player v player",IDC_PLAYER_V_PLAYER,8,26,111,42,
+                    SS_CENTERIMAGE
+    CTEXT           "Match status",IDC_MATCH_STATUS,8,74,111,35,
+                    SS_CENTERIMAGE
+    PUSHBUTTON      "Begin Game",IDC_BEGIN,38,140,51,14,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "Static",IDC_UPDATE,8,116,111,16,SS_CENTERIMAGE
+END
+
+IDD_STATS_MENU DIALOG DISCARDABLE  0, 0, 204, 138
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,6,4,191,55
+    GROUPBOX        "",IDC_STATIC,6,58,192,55
+    PUSHBUTTON      "Standard",IDC_01,10,26,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Random",IDC_02,72,26,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Rifle",IDC_03,134,26,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Swap",IDC_04,10,42,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back Rank",IDC_05,72,42,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Losing",IDC_06,134,42,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Standard",IDC_07,10,80,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Random",IDC_08,72,80,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Rifle",IDC_09,134,80,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Swap",IDC_10,10,96,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back Rank",IDC_11,72,96,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Losing",IDC_12,134,96,60,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back",IDC_13,72,116,60,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Player Career Stats",IDC_STATIC,10,66,184,8,
+                    SS_CENTERIMAGE
+    CTEXT           "Overall Chess Ratings Ladders",IDC_STATIC,10,12,184,8,
+                    SS_CENTERIMAGE
+END
+
+IDD_PLAYER_STATS DIALOG DISCARDABLE  0, 0, 360, 206
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,6,16,346,68
+    GROUPBOX        "",IDC_STATIC,6,90,346,92
+    PUSHBUTTON      "Back",IDC_CONTINUE,154,188,56,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Put Name + Game Here",IDC_PLAYER_NAME,6,6,346,8,
+                    SS_CENTERIMAGE
+    LTEXT           "Games Won :",IDC_STATIC,16,30,57,8,SS_CENTERIMAGE
+    LTEXT           "Games Drawn :",IDC_STATIC,132,30,57,8,SS_CENTERIMAGE
+    LTEXT           "Matches Won :",IDC_STATIC,16,42,60,8,SS_CENTERIMAGE
+    LTEXT           "Matches Drawn :",IDC_STATIC,132,42,60,8,SS_CENTERIMAGE
+    LTEXT           "Current Rating :",IDC_STATIC,72,58,55,8,SS_CENTERIMAGE
+    LTEXT           "Highest Rating :",IDC_STATIC,190,58,55,8,SS_CENTERIMAGE
+    LTEXT           "Computer Players Available Here :",IDC_STATIC,96,70,110,
+                    8,SS_CENTERIMAGE
+    CTEXT           "Static",IDC_CURRENT_RATING,128,58,30,8
+    CTEXT           "Static",IDC_MAX_RATING,246,58,30,8
+    CTEXT           "Static",IDC_AI_AVAILABLE,212,70,30,8
+    LTEXT           "Games Lost :",IDC_STATIC,244,30,57,8,SS_CENTERIMAGE
+    LTEXT           "Matches Lost :",IDC_STATIC,244,42,60,8,SS_CENTERIMAGE
+    CTEXT           "Static",IDC_GAMES1,76,30,30,8
+    CTEXT           "Static",IDC_GAMES2,192,30,30,8
+    CTEXT           "Static",IDC_GAMES3,304,30,30,8
+    CTEXT           "Static",IDC_MATCHES1,76,42,30,8
+    CTEXT           "Static",IDC_MATCHES2,192,42,30,8
+    CTEXT           "Static",IDC_MATCHES3,304,42,30,8
+    CTEXT           "Event History",IDC_STATIC,10,96,340,8
+    RTEXT           "Quarter Finals :",IDC_STATIC,10,132,50,8
+    RTEXT           "Semi Finals :",IDC_STATIC,10,146,50,8
+    RTEXT           "Finals :",IDC_STATIC,10,156,50,8
+    RTEXT           "CHAMPION :",IDC_STATIC,10,170,50,8
+    CTEXT           "Title 1",IDC_EVENT_TITLE1,64,110,70,18,SS_CENTERIMAGE
+    CTEXT           "Title 2",IDC_EVENT_TITLE2,136,110,70,18,SS_CENTERIMAGE
+    CTEXT           "Quarter",IDC_QUARTER1,64,132,70,8
+    CTEXT           "Quarter",IDC_QUARTER2,136,132,70,8
+    CTEXT           "Semi",IDC_SEMI1,64,146,70,8
+    CTEXT           "Semi",IDC_SEMI2,136,146,70,8
+    CTEXT           "Final",IDC_FINAL1,64,156,70,8
+    CTEXT           "Final",IDC_FINAL2,136,156,70,8
+    CTEXT           "Champion",IDC_CHAMPION1,64,170,70,8
+    CTEXT           "Champion",IDC_CHAMPION2,136,170,70,8
+    CTEXT           "Title 3",IDC_EVENT_TITLE3,208,110,70,18,SS_CENTERIMAGE
+    CTEXT           "Title 4",IDC_EVENT_TITLE4,280,110,70,18,SS_CENTERIMAGE
+    CTEXT           "Quarter",IDC_QUARTER3,208,132,70,8
+    CTEXT           "Quarter",IDC_QUARTER4,280,132,70,8
+    CTEXT           "Semi",IDC_SEMI3,208,146,70,8
+    CTEXT           "Semi",IDC_SEMI4,280,146,70,8
+    CTEXT           "Final",IDC_FINAL3,208,156,70,8
+    CTEXT           "Final",IDC_FINAL4,280,156,70,8
+    CTEXT           "Champion",IDC_CHAMPION3,208,170,70,8
+    CTEXT           "Champion",IDC_CHAMPION4,280,170,70,8
+END
+
+IDD_THINKING DIALOG DISCARDABLE  0, 0, 120, 118
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "AI Thinking...",IDC_THINKING,34,4,86,26,SS_CENTERIMAGE
+    CONTROL         "",IDC_SMILEY_IMAGE,"AifImage",WS_DISABLED,2,4,26,24
+    CONTROL         "",IDC_FACE_IMAGE,"AifImage",WS_DISABLED,48,62,26,24
+END
+
+IDD_MATCHUP_TOURN DIALOG DISCARDABLE  0, 0, 152, 142
+STYLE WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,5,140,115
+    PUSHBUTTON      "Continue",IDC_CONTINUE,50,125,50,14,BS_CENTER | 
+                    BS_VCENTER
+    LTEXT           "Describe me here...",IDC_DESCRIPTION,10,40,130,55
+    CTEXT           "You are about to play...",IDC_INTRO,10,15,130,20,
+                    SS_CENTERIMAGE
+    CTEXT           "Rating here...",IDC_RATING,10,95,130,20,SS_CENTERIMAGE
+END
+
+IDD_PROMOTION DIALOG DISCARDABLE  0, 0, 94, 102
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,8,14,78,64
+    PUSHBUTTON      "Accept",IDC_ACCEPT,24,84,46,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Select a piece to promote to:",IDC_STATIC,2,2,90,8,
+                    SS_CENTERIMAGE
+    CONTROL         "Queen",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,30,22,36,
+                    10
+    CONTROL         "Knight",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,30,36,34,
+                    10
+    CONTROL         "Rook",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,30,50,33,
+                    10
+    CONTROL         "Bishop",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,30,64,37,
+                    10
+END
+
+IDD_RATINGS_LIST DIALOG DISCARDABLE  0, 0, 119, 164
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Back",IDC_BACK,45,145,30,14,BS_CENTER | BS_VCENTER
+    LISTBOX         IDC_LIST,5,20,100,100,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Put stuff here",IDC_RANKINGS_TITLE,5,4,110,8,
+                    SS_CENTERIMAGE
+    CTEXT           "Player has used an aid during their progression",
+                    IDC_MARKED_PLAYER,5,125,110,16,SS_CENTERIMAGE
+END
+
+IDD_CHOICE DIALOG DISCARDABLE  0, 0, 78, 16
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Choice",IDC_CHOICE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,2,66,11
+END
+
+IDD_SHOOT_AFTER_PUSHOUT DIALOG DISCARDABLE  0, 0, 231, 17
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Shoot",IDC_SHOOT,126,2,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Pass",IDC_PASS,176,2,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Push Out played.    Select Option:",IDC_STATIC,7,4,115,
+                    10
+END
+
+IDD_RERACK_QUESTION DIALOG DISCARDABLE  0, 0, 336, 17
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Continue",IDC_REPLACE,87,2,54,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Re-Rack + you play",IDC_RERACK_YOUPLAY,142,2,94,14,
+                    BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Re-Rack + opponent plays",IDC_RERACK_OPPPLAY,237,2,94,
+                    14,BS_CENTER | BS_VCENTER
+    CTEXT           "Select Option:",IDC_STATIC,7,4,63,10
+END
+
+IDD_SIDE_SELECTION DIALOG DISCARDABLE  0, 0, 216, 17
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Solids",IDC_CHOSE_SOLIDS,142,2,33,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Stripes",IDC_CHOSE_STRIPES,177,2,31,14,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "Choose to play Solids or Stripes:",IDC_STATIC,7,4,114,
+                    10
+END
+
+IDD_TOURNAMENT_SPLASH DIALOG DISCARDABLE  0, 0, 239, 169
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_IMAGE_BOX,"AifImage",WS_DISABLED,5,5,230,160
+END
+
+IDD_DEMO DIALOG DISCARDABLE  0, 0, 93, 17
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "DEMO ONLY",IDC_THINKING,7,4,81,8,SS_CENTERIMAGE
+END
+
+IDD_MOVE_LIST DIALOG DISCARDABLE  0, 0, 66, 213
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST,3,15,50,195,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Move List",IDC_STATIC,6,3,52,8,SS_CENTERIMAGE
+END
+
+IDD_PAST_GAMES DIALOG DISCARDABLE  0, 0, 225, 123
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,111,15,111,105
+    PUSHBUTTON      "Select",IDC_SELECT,75,105,33,14,BS_CENTER | BS_VCENTER
+    LISTBOX         IDC_LIST,3,15,96,84,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Back",IDC_BACK,3,105,33,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Delete",IDC_DELETE,39,105,33,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Select a game to review",IDC_STATIC,3,3,198,8,
+                    SS_CENTERIMAGE
+    CTEXT           "Player1 Name",IDC_PLAYER1,114,21,105,8,SS_CENTERIMAGE
+    CTEXT           "Player2 Name",IDC_PLAYER2,114,39,105,8,SS_CENTERIMAGE
+    CTEXT           "Versus",IDC_STATIC,114,30,105,8,SS_CENTERIMAGE
+    CTEXT           "PGN info here",IDC_INFO,114,54,106,63,SS_CENTERIMAGE
+END
+
+IDD_TIME_CONTROLS_TOURN DIALOG DISCARDABLE  0, 0, 222, 92
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,4,16,214,54
+    PUSHBUTTON      "Accept",IDC_01,168,74,50,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Slider1",IDC_STAGE1_TIME,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,78,26,95,10
+    CONTROL         "Slider1",IDC_STAGE2_TIME,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,78,40,95,10
+    CONTROL         "Slider1",IDC_STAGE3_TIME,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,78,54,95,10
+    PUSHBUTTON      "Cancel",IDC_02,4,74,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Tournament Time Controls",IDC_STATIC,4,4,214,8
+    CTEXT           "1st 40 Moves",IDC_STATIC,10,26,64,8
+    LTEXT           "--",IDC_STAGE1_TIME_TEXT,174,26,42,8
+    CTEXT           "Next 20 Moves",IDC_STATIC,10,40,64,8
+    LTEXT           "--",IDC_STAGE2_TIME_TEXT,174,40,41,8
+    CTEXT           "Further Groups of 20",IDC_STATIC,10,54,64,8
+    LTEXT           "--",IDC_STAGE3_TIME_TEXT,174,54,41,8
+END
+
+IDD_OPPONENT_TYPE DIALOG DISCARDABLE  0, 0, 100, 66
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",IDC_OK,58,50,39,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Computer Player",IDC_COMPUTER,"Button",
+                    BS_AUTORADIOBUTTON,17,18,79,10
+    CONTROL         "Human Player",IDC_HUMAN,"Button",BS_AUTORADIOBUTTON,17,
+                    31,79,10
+    PUSHBUTTON      "Back",IDC_BACK,4,50,39,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Opponent Type",IDC_STATIC,2,2,94,8
+END
+
+IDD_SETUP_BAR DIALOG DISCARDABLE  0, 0, 355, 20
+STYLE WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Back",IDC_BACK,4,2,36,16,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Finish",IDC_START_GAME,41,2,36,16,BS_CENTER | 
+                    BS_VCENTER
+    CONTROL         "White",IDC_WHITE_TO_PLAY,"Button",BS_AUTORADIOBUTTON,
+                    110,10,52,10
+    CONTROL         "Black",IDC_BLACK_TO_PLAY,"Button",BS_AUTORADIOBUTTON,
+                    168,10,54,10
+    PUSHBUTTON      "Clear",IDC_CLEAR_BOARD,246,2,52,16,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Reset",IDC_RESET_BOARD,299,2,52,16,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "Side To Play Next",IDC_STATIC,106,2,116,8,
+                    SS_CENTERIMAGE
+END
+
+IDD_SETUP_GAME_LENGTH DIALOG DISCARDABLE  0, 0, 101, 58
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Start Setup",IDC_01,2,3,96,19,BS_CENTER | BS_VCENTER
+    CONTROL         "Play As White",IDC_FIRST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,25,90,12
+    PUSHBUTTON      "Back",IDC_02,25,41,50,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_TIME_OPTIONS DIALOG DISCARDABLE  0, 0, 109, 126
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_TIMER_TITLE,5,15,100,91
+    CONTROL         "Blitz",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,30,22,28,
+                    10
+    CONTROL         "Infinite",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,30,80,
+                    35,10
+    CONTROL         "Average",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,30,46,
+                    42,10
+    CONTROL         "Tournament",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,30,
+                    32,52,10
+    CONTROL         "Matching",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,30,70,
+                    43,10
+    CONTROL         "Exact",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,30,56,33,
+                    10
+    CONTROL         "Play Level Based",IDC_RADIO7,"Button",
+                    BS_AUTORADIOBUTTON,30,90,69,10
+    PUSHBUTTON      "Time Controls",IDC_01,56,108,50,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Back",IDC_02,4,108,40,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Timer Mode",IDC_TIMER_TITLE,5,5,100,8
+END
+
+IDD_TIME_CONTROLS_BLITZ DIALOG DISCARDABLE  0, 0, 199, 79
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",-1,5,15,190,39
+    PUSHBUTTON      "Accept",IDC_01,145,60,50,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Slider1",IDC_STAGE1_TIME,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,60,30,95,10
+    CONTROL         "Slider1",IDC_STAGE1_BONUS,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,60,40,95,10
+    PUSHBUTTON      "Cancel",IDC_02,5,60,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Blitz Time Controls",-1,5,3,190,8
+    CTEXT           "Allocated Time",-1,10,30,48,8
+    LTEXT           "--",IDC_STAGE1_TIME_TEXT,155,30,40,8
+    CTEXT           "Bonus Time",-1,10,40,48,8
+    LTEXT           "--",IDC_STAGE1_BONUS_TEXT,155,40,40,8
+    CTEXT           "Settings",IDC_STAGE1_TEXT,5,22,190,8,SS_CENTERIMAGE
+END
+
+IDD_TIME_CONTROLS_SETAI DIALOG DISCARDABLE  0, 0, 199, 64
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",-1,5,15,190,25
+    PUSHBUTTON      "Accept",IDC_01,145,45,50,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Slider1",IDC_STAGE1_TIME,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,60,25,95,10
+    PUSHBUTTON      "Cancel",IDC_02,5,45,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Time Controls",-1,5,3,190,8
+    CTEXT           "Allocated Time",-1,10,25,48,8
+    LTEXT           "--",IDC_STAGE1_TIME_TEXT,155,25,40,8
+END
+
+IDD_NET_APPGAME_CONNECT_TYPE DIALOGEX 0, 0, 165, 112
+STYLE DS_CENTER | WS_POPUP | WS_BORDER
+FONT 10, "Microsoft Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Host",IDC_NETPLAY_HOST,23,69,50,16,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Join",IDC_NETPLAY_JOIN,88,69,50,16,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Cancel",IDCANCEL,55,91,50,16,BS_CENTER | BS_VCENTER
+    CTEXT           "Network Connection",IDC_STATIC,8,4,150,10,0,
+                    WS_EX_STATICEDGE
+    CTEXT           "For network play between two players:\n\nOne must be the host and the other the joiner.\n\n(The host will always specifes the game.)",
+                    IDC_STATIC,8,18,150,48,0,WS_EX_STATICEDGE
+END
+
+IDD_NETPLAY_CONNECTION DIALOGEX 0, 0, 282, 164
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose Connection"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Select",IDOK,225,144,50,14,BS_CENTER | BS_VCENTER
+    EDITTEXT        IDC_ADDRESS_LINE1,71,93,88,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ADDRESS_LINE2,199,93,76,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_ADAPTER_LIST,71,110,190,30,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_CONNECTION_LIST,7,17,254,72,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,8,144,50,14,BS_CENTER | BS_VCENTER
+    LTEXT           "Select a connection type:",IDC_STATIC,7,5,92,10,0,
+                    WS_EX_STATICEDGE
+    RTEXT           "IP Address:",IDC_ADDRESS_LINE1_TEXT,8,95,59,10,0,
+                    WS_EX_STATICEDGE
+    RTEXT           "Port:",IDC_ADDRESS_LINE2_TEXT,168,95,26,10,0,
+                    WS_EX_STATICEDGE
+    RTEXT           "Adapter:",IDC_STATIC,8,112,59,10,0,WS_EX_STATICEDGE
+END
+
+IDD_NETPLAY_HOST_CONNECT DIALOGEX 0, 0, 263, 199
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Host: "
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,21,248,36,BS_CENTER,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,7,61,248,99,BS_CENTER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Accept",IDC_ACCEPT,106,164,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Host",IDC_HOST,172,164,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Stop Hosting",IDC_STOP_HOSTING,172,180,50,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Reject",IDC_REJECT,106,180,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back",IDC_BACK,39,180,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Cancel",IDC_CANCEL,39,164,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Send",IDC_CHAT_SEND,199,142,50,14,BS_CENTER | 
+                    BS_VCENTER
+    EDITTEXT        IDC_CHAT_EDIT,13,142,183,14,ES_WANTRETURN
+    EDITTEXT        IDC_SESSION_NAME_EDIT,50,38,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PLAYER_NAME_EDIT,176,38,73,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_CHAT_LISTBOX,13,76,222,64,WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Waiting for a network player to join",IDC_MESSAGE,7,6,
+                    248,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Connection details",IDC_STATIC,76,25,112,10,0,
+                    WS_EX_STATICEDGE
+    LTEXT           "Session:",IDC_STATIC,14,41,29,10,0,WS_EX_STATICEDGE
+    LTEXT           "Player:",IDC_STATIC,143,41,28,10,0,WS_EX_STATICEDGE
+    CTEXT           "Use this chat box to talk to a joiner:",IDC_STATIC,65,
+                    65,132,10,0,WS_EX_STATICEDGE
+END
+
+IDD_NETPLAY_CLIENT_CONNECT DIALOGEX 0, 0, 263, 217
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Join Game:"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,104,248,73,BS_CENTER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Join a Game",IDC_JOIN,205,198,50,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Decline",IDC_DECLINE,205,182,50,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Back",IDC_BACK,7,198,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Cancel",IDC_CANCEL,7,182,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Start Search for Games to Join",IDC_SEARCH,75,198,107,
+                    14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Send",IDC_CHAT_SEND,199,158,50,14,BS_CENTER | 
+                    BS_VCENTER
+    EDITTEXT        IDC_CHAT_EDIT,13,158,183,14,ES_WANTRETURN
+    EDITTEXT        IDC_PLAYER_NAME_EDIT,109,182,73,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_CHAT_LISTBOX,13,117,222,38,WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_GAMES_LIST,7,20,234,79,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Waiting for Host to accept.",IDC_MESSAGE,7,6,248,10,
+                    SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Use this chat box to talk to the host:",IDC_STATIC,70,
+                    107,124,9,0,WS_EX_STATICEDGE
+    LTEXT           "Player:",IDC_STATIC,76,185,28,10,0,WS_EX_STATICEDGE
+END
+
+IDD_NET_APPGAME_START_WAIT DIALOGEX 0, 0, 212, 74
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 10, "Microsoft Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "Waiting for the other player to\njoin the network game.\n\nThis dialog will dissapear when they have joined.",
+                    IDC_MESSAGE,12,4,188,36,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Cancel",IDCANCEL,81,56,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "",IDC_MESSAGE2,12,41,188,10,0,WS_EX_STATICEDGE
+END
+
+IDD_NET_APPGAME_HOST_SETUP DIALOGEX 0, 0, 118, 207
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,6,18,107,31,0,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,6,52,107,51,0,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,6,107,107,64,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Play",IDOK,63,188,50,16,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Cancel",IDCANCEL,6,188,50,16,BS_CENTER | BS_VCENTER
+    CTEXT           "Host Select",IDC_STATIC,5,4,108,10,0,WS_EX_STATICEDGE
+    CTEXT           "Game type",IDC_STATIC,17,19,85,8,0,WS_EX_STATICEDGE
+    CONTROL         "Chicago",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,25,29,
+                    67,8,WS_EX_STATICEDGE
+    CONTROL         "Rubber",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,25,38,67,
+                    8,WS_EX_STATICEDGE
+    CTEXT           "Seat",IDC_STATIC,17,53,85,8,0,WS_EX_STATICEDGE
+    CONTROL         "North",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,25,65,67,
+                    8,WS_EX_STATICEDGE
+    CONTROL         "East",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,25,74,67,8,
+                    WS_EX_STATICEDGE
+    CONTROL         "South",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,25,83,67,
+                    8,WS_EX_STATICEDGE
+    CONTROL         "West",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,25,92,67,8,
+                    WS_EX_STATICEDGE
+    CTEXT           "Dealer",IDC_STATIC1,17,108,85,8,0,WS_EX_STATICEDGE
+    CONTROL         "North",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,25,120,67,
+                    8,WS_EX_STATICEDGE
+    CONTROL         "East",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,25,129,67,
+                    8,WS_EX_STATICEDGE
+    CONTROL         "South",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,25,138,67,
+                    8,WS_EX_STATICEDGE
+    CONTROL         "West",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,25,147,67,
+                    8,WS_EX_STATICEDGE
+    CONTROL         "Cut Cards",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON,25,
+                    160,67,8,WS_EX_STATICEDGE
+    CTEXT           "",IDC_MESSAGE2,6,175,107,10,0,WS_EX_STATICEDGE
+END
+
+IDD_NET_APPGAME_HOST_WAIT_CLIENT_SETUP DIALOGEX 0, 0, 212, 74
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 10, "Microsoft Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,81,56,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Waiting for the other player to\nchoose their seat.\n\nThis dialog will dissapear when they have selected.",
+                    IDC_MESSAGE,12,4,188,36,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_MESSAGE2,12,41,188,10,0,WS_EX_STATICEDGE
+END
+
+IDD_NET_APPGAME_CLIENT_SETUP DIALOGEX 0, 0, 118, 152
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",-1,6,18,107,41,0,WS_EX_STATICEDGE
+    GROUPBOX        "",-1,6,61,107,51,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Play",IDOK,63,133,50,16,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Cancel",IDCANCEL,6,133,50,16,BS_CENTER | BS_VCENTER
+    CTEXT           "Client select",-1,5,4,108,10,0,WS_EX_STATICEDGE
+    CTEXT           "Host has selected:",-1,17,19,85,8,0,WS_EX_STATICEDGE
+    CTEXT           "Select your Seat",-1,17,62,85,10,0,WS_EX_STATICEDGE
+    CONTROL         "North",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,25,74,67,
+                    8,WS_EX_STATICEDGE
+    CONTROL         "East",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,25,83,67,8,
+                    WS_EX_STATICEDGE
+    CONTROL         "South",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,25,92,67,
+                    8,WS_EX_STATICEDGE
+    CONTROL         "West",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,25,101,67,
+                    8,WS_EX_STATICEDGE
+    CTEXT           "",IDC_MESSAGE2,6,120,107,10,0,WS_EX_STATICEDGE
+    CTEXT           "Game",IDC_STATIC1,25,29,67,8,0,WS_EX_STATICEDGE
+    CTEXT           "Seat",IDC_STATIC2,25,38,67,8,0,WS_EX_STATICEDGE
+    CTEXT           "Dealer",IDC_STATIC3,25,47,67,8,0,WS_EX_STATICEDGE
+END
+
+IDD_NET_APPGAME_CLIENT_WAIT_HOST_SETUP DIALOGEX 0, 0, 212, 74
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 10, "Microsoft Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "Waiting for the Host to\nselect the game, dealer and their seat.\n\nThis dialog will dissapear when they have selected.",
+                    IDC_MESSAGE,12,4,188,36,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Cancel",IDCANCEL,81,56,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "",IDC_MESSAGE2,12,41,188,10,0,WS_EX_STATICEDGE
+END
+
+IDD_NETPLAY_CHAT DIALOGEX 0, 0, 302, 65
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CHAT_EDIT,56,48,244,14,ES_WANTRETURN
+    PUSHBUTTON      "Send",IDC_CHAT_SEND,3,48,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Disconnect",IDC_DISCONNECT,3,3,50,14,BS_CENTER | 
+                    BS_VCENTER
+    LISTBOX         IDC_CHAT_LISTBOX,3,19,283,27,WS_VSCROLL | WS_TABSTOP
+    CTEXT           "",IDC_MESSAGE,56,5,188,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CTEXT           "",IDC_MESSAGE1,245,5,55,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+END
+
+IDD_NETPLAY_CHAT2_SEND DIALOG DISCARDABLE  0, 0, 560, 18
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+    PUSHBUTTON      "Send",IDC_CHAT_SEND,3,2,50,14,BS_CENTER | BS_VCENTER
+    EDITTEXT        IDC_CHAT_EDIT,56,2,488,14,ES_WANTRETURN
+    PUSHBUTTON      "x",IDCLOSE,547,0,12,12,BS_CENTER | BS_VCENTER | NOT 
+                    WS_TABSTOP
+END
+
+IDD_NETPLAY_CHAT2_MSG DIALOGEX 0, 0, 301, 112
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC1,1,1,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC2,1,12,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC3,1,23,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC4,1,34,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC5,1,45,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC6,1,56,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC7,1,67,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC8,1,78,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC9,1,89,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC10,1,100,299,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+END
+
+IDD_NETPLAY_CHAT2_STATUS DIALOGEX 0, 0, 188, 22
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_STATIC1,0,0,188,10,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CTEXT           "",IDC_STATIC2,0,11,188,10,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+END
+
+IDD_NETPLAY_LAMP DIALOG DISCARDABLE  0, 0, 14, 18
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 10, "Microsoft Sans Serif"
+BEGIN
+    CONTROL         "",IDC_IMAGE1,"AifImage",WS_DISABLED,3,5,8,8
+    CONTROL         "",IDC_IMAGE2,"AifImage",WS_DISABLED,3,5,8,8
+    CONTROL         "",IDC_IMAGE3,"AifImage",WS_DISABLED,3,5,8,8
+    CONTROL         "",IDC_IMAGE4,"AifImage",WS_DISABLED,3,5,8,8
+    CONTROL         "",IDC_IMAGE5,"AifImage",WS_DISABLED,3,5,8,8
+    CONTROL         "",IDC_IMAGE6,"AifImage",WS_DISABLED,3,5,8,8
+END
+
+IDD_NET_APPGAME_DISCONNECT DIALOGEX 0, 0, 212, 88
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 10, "Microsoft Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Continue",IDOK,114,69,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Abandon",IDCANCEL,48,69,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Lost Network Connection\n\nThe network player has either abandoned the game or\na network problem has occoured.",
+                    IDC_MESSAGE,12,4,188,33,0,WS_EX_STATICEDGE
+    CTEXT           "Do you wish to abandon the game or\ncontinue against an AI player ?",
+                    IDC_STATIC,12,43,188,18,0,WS_EX_STATICEDGE
+END
+
+IDD_CHAR_P1_CREATE DIALOG DISCARDABLE  0, 0, 144, 72
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,40,30,99,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Create",IDC_CREATE,89,53,50,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Back",IDC_BACK,4,53,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Type in your characters name",IDC_STATIC,4,4,135,8
+    CTEXT           "---",IDC_STATIC_MESSAGE,4,16,135,8
+    RTEXT           "Name: ",IDC_STATIC,4,33,36,8
+END
+
+IDD_NET_WAITING_FOR_START DIALOG DISCARDABLE  0, 0, 149, 63
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CTEXT           "Waiting for client\n\nPress cancel to return to game selection",
+                    IDC_TITLE,3,6,142,33
+    PUSHBUTTON      "Cancel",IDC_CANCEL,51,45,47,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_ABOUT_TO_VOID_STATS DIALOGEX 0, 0, 145, 84
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Yes",IDC_YES,90,66,51,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Do not warn me again...",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,36,54,90,10
+    PUSHBUTTON      "No",IDC_NO,3,66,51,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Warning - Invalidating Stats",IDC_TITLE,2,2,139,10,0,
+                    WS_EX_STATICEDGE
+    CTEXT           "By performing this action, statistics will\nnot be logged and ratings will not be\nexchanged for this match...\nDo you wish to continue?",
+                    IDC_TEXT,2,14,139,37,0,WS_EX_STATICEDGE
+END
+
+IDD_CAMERA_HINT DIALOGEX 0, 0, 145, 99
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Continue",IDC_OK,48,81,48,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Do not show hint again...",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,36,66,90,10
+    CTEXT           "Camera Controls Hint",IDC_TITLE,2,2,139,10,0,
+                    WS_EX_STATICEDGE
+    CTEXT           "Once playing, you can change the camera\nperspective by holding down the right mouse\nbutton and dragging.  You can also zoom in\nand out by using the mouse wheel or by\npressing the  +  and  -  keys.",
+                    IDC_TEXT,2,14,139,46,0,WS_EX_STATICEDGE
+END
+
+IDD_MSG_BOX_OK2 DIALOG DISCARDABLE  0, 0, 188, 112
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CTEXT           "Title",IDC_TITLE,3,3,181,8
+    CTEXT           "Text\nText\nText\nText\nText\nText\nText",IDC_TEXT,3,17,
+                    181,75
+    PUSHBUTTON      "Continue",IDC_01,70,96,48,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_COACH_VIEW DIALOG DISCARDABLE  0, 0, 190, 80
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    CTEXT           "Coach Warning",IDC_TITLE,64,2,126,8
+    PUSHBUTTON      "Retract Move",IDC_RETRACT,78,44,46,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Accept Move",IDC_ACCEPT,78,60,100,14,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Suggest Move",IDC_SUGGEST,132,44,46,14,BS_CENTER | 
+                    BS_VCENTER
+    LTEXT           "",IDC_COACH_TEXT,64,14,126,24
+    CONTROL         "",IDC_IMAGE,"AifImage",WS_DISABLED,0,0,42,60
+END
+
+IDD_GAME_SETS DIALOG DISCARDABLE  0, 0, 169, 177
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,30,75,110
+    GROUPBOX        "",IDC_STATIC,90,30,75,110
+    PUSHBUTTON      "Accept",IDC_01,60,159,50,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Staunton",IDC_CHK_PIECE_SET1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,45,65,10
+    CONTROL         "Angular",IDC_CHK_PIECE_SET2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,55,65,10
+    CONTROL         "Art Deco",IDC_CHK_PIECE_SET3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,65,65,10
+    CONTROL         "Crystal",IDC_CHK_PIECE_SET4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,75,65,10
+    CONTROL         "Marble",IDC_CHK_PIECE_SET5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,85,65,10
+    CONTROL         "Ornate",IDC_CHK_PIECE_SET6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,95,65,10
+    CONTROL         "Seasons",IDC_CHK_PIECE_SET7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,105,65,10
+    CONTROL         "Sci Fi",IDC_CHK_PIECE_SET8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,115,65,10
+    CONTROL         "Floating",IDC_CHK_PIECE_SET9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,125,65,10
+    CONTROL         "Green Marble",IDC_CHK_BOARD1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,45,65,10
+    CONTROL         "Wooden",IDC_CHK_BOARD2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,55,65,10
+    CONTROL         "Art Deco",IDC_CHK_BOARD3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,65,65,10
+    CONTROL         "Crystal",IDC_CHK_BOARD4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,75,65,10
+    CONTROL         "Marble",IDC_CHK_BOARD5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,85,65,10
+    CONTROL         "Ornate",IDC_CHK_BOARD6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,95,65,10
+    CONTROL         "Seasons",IDC_CHK_BOARD7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,105,65,10
+    CONTROL         "Sci Fi",IDC_CHK_BOARD8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,115,65,10
+    CONTROL         "Floating",IDC_CHK_BOARD9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,125,65,10
+    CTEXT           "Select a board and piece set",IDC_STATIC,5,5,160,8,
+                    SS_CENTERIMAGE
+    CTEXT           "Boards",IDC_STATIC,5,20,75,8,SS_CENTERIMAGE
+    CTEXT           "Piece Sets",IDC_STATIC,90,20,75,8,SS_CENTERIMAGE
+    CTEXT           "<!!><!!RGB:MIDRED>Win matches and Tournaments to unlock new sets!<!!/RGB>",
+                    IDC_STATIC,6,144,159,8,SS_CENTERIMAGE
+END
+
+IDD_GAME_MODE_CLUB DIALOG DISCARDABLE  0, 0, 89, 154
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Match Play",IDC_01,5,15,80,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Setup Game",IDC_02,5,35,80,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Historical Game",IDC_03,5,50,80,15,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Logged Game",IDC_04,5,65,80,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Practice Game",IDC_05,5,80,80,14,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Beginners Championship",IDC_06,5,100,80,15,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Club Championship",IDC_07,5,115,80,15,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Back",IDC_08,20,135,50,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Game Type",IDC_STATIC,6,2,80,8
+END
+
+IDD_GAME_MODE_PRO DIALOG DISCARDABLE  0, 0, 88, 124
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Match Play",IDC_01,4,14,80,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Historical Game",IDC_03,4,34,80,15,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Logged Game",IDC_04,4,49,80,15,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Blitz Tournament",IDC_06,4,70,80,15,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Pro Tournament",IDC_07,4,86,80,15,BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      "Back",IDC_08,20,106,48,14,BS_CENTER | BS_VCENTER
+    CTEXT           "Game Type",IDC_STATIC,4,2,80,8
+END
+
+IDD_TOURN_DESC DIALOG DISCARDABLE  0, 0, 165, 159
+STYLE WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,12,155,126
+    PUSHBUTTON      "Continue",IDC_CONTINUE,94,142,50,14,BS_CENTER | 
+                    BS_VCENTER
+    LTEXT           "Describe me here...",IDC_DESCRIPTION,10,20,146,114
+    CTEXT           "Competition Information",IDC_STATIC,10,2,146,12,
+                    SS_CENTERIMAGE
+    PUSHBUTTON      "Back",IDC_BACK,22,142,50,14,BS_CENTER | BS_VCENTER
+END
+
+IDD_TOURN_WIN DIALOG DISCARDABLE  0, 0, 190, 186
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,0,22,190,146
+    CTEXT           "CONGRATULATIONS",IDC_TITLE,2,2,186,16
+    PUSHBUTTON      "Continue",IDC_CONTINUE,74,170,44,14,BS_CENTER | 
+                    BS_VCENTER
+    CTEXT           "",IDC_MATCH_TEXT,2,36,186,130,SS_CENTERIMAGE
+    CTEXT           "Match Summary",IDC_TITLE2,2,26,186,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LOADING, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 223
+        TOPMARGIN, 16
+        BOTTOMMARGIN, 153
+    END
+
+    IDD_CREDITS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 196
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_STATUS_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 258
+        VERTGUIDE, 6
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 16
+    END
+
+    IDD_MAIN_MENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 88
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_GAME_MODE_HOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 87
+        VERTGUIDE, 34
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 113
+        HORZGUIDE, 17
+    END
+
+    IDD_GAME_SELECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 96
+        VERTGUIDE, 28
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_MSG_BOX_OK, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 158
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_GAME_MENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 94
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 188
+    END
+
+    IDD_WORLD_SELECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 75
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_MSG_BOX_YESNO, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 141
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_OPTIONS_SFX, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 145
+        VERTGUIDE, 13
+        VERTGUIDE, 132
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 106
+        HORZGUIDE, 45
+    END
+
+    IDD_OPTIONS_JUKEBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 147
+        VERTGUIDE, 25
+        VERTGUIDE, 52
+        VERTGUIDE, 138
+        TOPMARGIN, 16
+        BOTTOMMARGIN, 182
+        HORZGUIDE, 45
+        HORZGUIDE, 65
+        HORZGUIDE, 110
+        HORZGUIDE, 125
+        HORZGUIDE, 140
+        HORZGUIDE, 155
+    END
+
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 78
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_JUKEBOX_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 151
+        VERTGUIDE, 50
+        TOPMARGIN, 16
+        BOTTOMMARGIN, 84
+        HORZGUIDE, 35
+        HORZGUIDE, 50
+        HORZGUIDE, 65
+        HORZGUIDE, 80
+    END
+
+    IDD_CHAR_WELCOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 120
+        TOPMARGIN, 16
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_CHAR_UNSAVED_WARNING, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 159
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_CHAR_SAVED_ACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 127
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 31
+    END
+
+    IDD_CHAR_P1_REMOVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 95
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 35
+    END
+
+    IDD_CHAR_P1_MAIN_FORCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 69
+        TOPMARGIN, 16
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_CHAR_P1_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 66
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_PGN_SAVE_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 102
+        VERTGUIDE, 40
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 49
+        HORZGUIDE, 37
+    END
+
+    IDD_CHAR_P1_CHOOSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 93
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_OPTIONS_DISPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 204
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_OPTIONS_QUERY_CHANGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 125
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_HELP, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 255
+        TOPMARGIN, 16
+        BOTTOMMARGIN, 223
+        HORZGUIDE, 205
+    END
+
+    IDD_PLAYER_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 138
+        VERTGUIDE, 31
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 98
+        HORZGUIDE, 30
+        HORZGUIDE, 45
+        HORZGUIDE, 60
+        HORZGUIDE, 75
+    END
+
+    IDD_GAMEPLAY_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 197
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 117
+        HORZGUIDE, 34
+        HORZGUIDE, 55
+    END
+
+    IDD_MSG_BOX_OK1, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 145
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_PROMOTIONAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 190
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_AI_PLAYER_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 218
+        VERTGUIDE, 88
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 144
+        HORZGUIDE, 23
+    END
+
+    IDD_CHEAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 128
+        TOPMARGIN, 16
+        BOTTOMMARGIN, 134
+        HORZGUIDE, 65
+    END
+
+    IDD_PRACTICE_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 184
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 185
+        HORZGUIDE, 54
+    END
+
+    IDD_CHAR_P1_MANAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 121
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_CHAR_P1_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 184
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_P1_SNOOKER_INDICATOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 114
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 17
+    END
+
+    IDD_REPLAY_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 351
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 18
+    END
+
+    IDD_GAME_LENGTH, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 282
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_P2_SNOOKER_INDICATOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 114
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 17
+    END
+
+    IDD_GAME_OVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 192
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_MATCH_OVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 212
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_F1MENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 49
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 7
+    END
+
+    IDD_MATCHUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 120
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_STATS_MENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_PLAYER_STATS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+
+    IDD_THINKING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 115
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_MATCHUP_TOURN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_PROMOTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 90
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 99
+        HORZGUIDE, 34
+        HORZGUIDE, 55
+    END
+
+    IDD_RATINGS_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 113
+        VERTGUIDE, 88
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 158
+        HORZGUIDE, 23
+    END
+
+    IDD_CHOICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 73
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 13
+    END
+
+    IDD_SHOOT_AFTER_PUSHOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 14
+    END
+
+    IDD_RERACK_QUESTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 331
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 14
+    END
+
+    IDD_SIDE_SELECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 14
+    END
+
+    IDD_TOURNAMENT_SPLASH, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 223
+        TOPMARGIN, 16
+        BOTTOMMARGIN, 153
+    END
+
+    IDD_MOVE_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 62
+        VERTGUIDE, 56
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 207
+        HORZGUIDE, 23
+    END
+
+    IDD_PAST_GAMES, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 219
+        VERTGUIDE, 88
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 117
+        HORZGUIDE, 23
+    END
+
+    IDD_TIME_CONTROLS_TOURN, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 218
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 89
+        HORZGUIDE, 54
+    END
+
+    IDD_OPPONENT_TYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 96
+        VERTGUIDE, 17
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_SETUP_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 351
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 17
+    END
+
+    IDD_SETUP_GAME_LENGTH, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 97
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_TIME_OPTIONS, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_TIME_CONTROLS_BLITZ, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 195
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 76
+        HORZGUIDE, 54
+    END
+
+    IDD_TIME_CONTROLS_SETAI, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 195
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 61
+        HORZGUIDE, 54
+    END
+
+    IDD_CHAR_P1_CREATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 138
+        VERTGUIDE, 40
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 67
+        HORZGUIDE, 37
+    END
+
+    IDD_NET_WAITING_FOR_START, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 145
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_ABOUT_TO_VOID_STATS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 141
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 81
+    END
+
+    IDD_CAMERA_HINT, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 141
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_MSG_BOX_OK2, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 184
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_COACH_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 186
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_GAME_SETS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 165
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 174
+        HORZGUIDE, 34
+        HORZGUIDE, 55
+    END
+
+    IDD_GAME_MODE_CLUB, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 87
+        VERTGUIDE, 34
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 151
+        HORZGUIDE, 17
+    END
+
+    IDD_GAME_MODE_PRO, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 86
+        VERTGUIDE, 34
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 121
+        HORZGUIDE, 17
+    END
+
+    IDD_TOURN_DESC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_TOURN_WIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 186
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 183
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
